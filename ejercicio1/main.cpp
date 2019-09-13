@@ -1,17 +1,20 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
 
 int main() {
 
-entero base=0, entero altura=0;
-cout << "\ningrese la base:";
-cin >> base;
-cout << "\ningrese la altura:";
-cin >> altura;
+    int base=0;
+    int altura=0;
+
+    cout << "\ningrese la base:";
+    cin >> base;
+    cout << "\ningrese la altura:";
+    cin >> altura;
+
+    double A = (base*altura/2.00);
+    cout<<A;
 
 
-// ToDO
-
-  return 0;
+    return 0;
 }
+                                                
